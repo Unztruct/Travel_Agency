@@ -26,6 +26,62 @@ and open the template in the editor.
           
             
             
+                  <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+            
+            <!--End of navbar-->      
+            
             
             <div id="slideshow">
             
@@ -40,19 +96,19 @@ and open the template in the editor.
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-        <img src="Bilder/exotic1.jpg" alt="bild1">
+        <img src="Bilder/rsz_exotic1.jpg" alt="bild1">
       <div class="carousel-caption">
           <h2>Assorted Title1</h2>
       </div>
     </div>
     <div class="item">
-        <img src="Bilder/exotic2.jpg" alt="bild2">
+        <img src="Bilder/rsz_exotic2.jpg" alt="bild2">
       <div class="carousel-caption">
         <h2>Assorted Title2</h2>
       </div>
     </div>
       <div class="item">
-          <img src="Bilder/exotic3.jpg" alt="bild3">
+          <img src="Bilder/rsz_exotic3.jpg" alt="bild3">
       <div class="carousel-caption">
         <h2>Assorted Title3</h2>
       </div>
@@ -68,14 +124,70 @@ and open the template in the editor.
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
-       </div>     
+                
+                
+       </div>
+            <!--End of slideshow-->
+            
+
+            
+            
+            
+            
+            
+            
+            
+            <div id="Firstarticle" class="col-lg-3 col-lg-offset-3">
+                <h2>Firstarticle</h2>
+                
+                
+                
+                
+                <img class="img-responsive" src="Bilder/airplane.jpg" alt="airplanes">
+                
+                <p class="text-center">
+                    Cras ac elit enim. Nunc maximus massa a turpis bibendum mattis. Ut ultrices pellentesque tristique. Fusce fermentum leo vel neque accumsan, id lacinia dui imperdiet. 
+                    
+                    
+                </p>
+                
+            </div>
+            
+            <!--End of first article-->
+            
+            
+            
+            <div id="Secondarticle" class="col-lg-3">
+                <h2>Secondarticle</h2>
+                
+                
+                
+                
+                <img class="img-responsive" src="Bilder/exoticjewelry.jpg" alt="airplanes">
+                
+                <p class="text-center">
+                    Cras ac elit enim. Nunc maximus massa a turpis bibendum mattis. Ut ultrices pellentesque tristique. Fusce fermentum leo vel neque accumsan, id lacinia dui imperdiet. 
+                    
+                    
+                </p>
+                
+            </div>
+            
+            <!--End of second article--> 
+            
+            
+            <button type="button" class="btn btn-success">Success</button>
+            
+            
+            
+            
             
         <!--End of wrapper-->
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         
-        <div id="test"></div>
+        
         
         
         
