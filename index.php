@@ -26,7 +26,7 @@ and open the template in the editor.
           
             
             
-                  <nav class="navbar navbar-default" role="navigation">
+            <nav  class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -64,9 +64,8 @@ and open the template in the editor.
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+       
+          
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
@@ -105,6 +104,8 @@ and open the template in the editor.
         <img src="Bilder/rsz_exotic2.jpg" alt="bild2">
       <div class="carousel-caption">
         <h2>Assorted Title2</h2>
+        
+       
       </div>
     </div>
       <div class="item">
@@ -160,7 +161,7 @@ and open the template in the editor.
             <div id="Secondarticle" class="col-lg-3">
                 <h2>Secondarticle</h2>
                 
-                
+             
                 
                 
                 <img class="img-responsive" src="Bilder/exoticjewelry.jpg" alt="airplanes">
@@ -176,7 +177,96 @@ and open the template in the editor.
             <!--End of second article--> 
             
             
-            <button type="button" class="btn btn-success">Success</button>
+           
+            
+            <div id="row" class="col-lg-offset-4" class="col-lg-3">
+                
+                <div class="panel-group"   id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          <h2>Gebrony</h2>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+             
+              
+          <h3>
+              Collapse First
+          </h3>   
+          <p>"Lum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  
+          
+          <button type="button" class="btn btn-primary btn-lg">Large button</button>
+  
+
+              
+              
+              
+            
+             
+              
+             <!--End of first collapse-->
+
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+         <h2>What is cooking</h2>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+       
+          <h3>Collapse Second</h3>
+          
+          
+          <p>Aliquam eu dui et elit blandit efficitur. In eget ipsum orci. Vestibulum viverra sem vel mauris vulputate malesuada. In hac habitasse platea dictumst. Praesent dui quam, ornare ut libero vitae, luctus finibus ipsum. Vestibulum diam purus, porta ut blandit in, bibendum et velit. Etiam ac cursus risus.</p>
+      
+      <!--End of second collapse-->
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            <h2>Contact Information</h2>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+          <h3>Collapse Third</h3>
+          
+          <p>Vivamus quis maximus massa, pharetra facilisis risus. Morbi finibus, dui vitae sagittis gravida, neque purus aliquam nisl, ut elementum neque diam id eros.</p>
+          
+       
+
+          
+          
+          <!--End of third collapse--> 
+      </div>
+    </div>
+  </div>
+</div>
+            <!--End of collapse-->    
+            
+                
+                
+                
+                
+            </div>
+            
+            
+            
             
             
             
@@ -184,6 +274,17 @@ and open the template in the editor.
             
         <!--End of wrapper-->
         </div>
+        
+        <!--End of collapse-->
+        
+        
+        <
+             
+             
+        
+        
+        
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         
