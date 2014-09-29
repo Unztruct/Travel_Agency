@@ -36,14 +36,14 @@ and open the template in the editor.
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="#">Home</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Menue</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -57,24 +57,13 @@ and open the template in the editor.
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
+      <form class="nav navbar-nav navbar-right" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <!--<button type="submit" class="btn  btn-default">Submit</button>-->
       </form>
-      <ul class="nav navbar-nav navbar-right">
-       
-          
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
+      <button type="Submit" class="btn  btn-default">Sub the mit</button>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -114,7 +103,7 @@ and open the template in the editor.
         <h2>Assorted Title3</h2>
       </div>
     </div>
-    ...
+    
   </div>
 
   <!-- Controls -->
@@ -257,7 +246,7 @@ and open the template in the editor.
     </div>
   </div>
 </div>
-            <!--End of collapse-->    
+           
             
                 
                 
@@ -266,7 +255,7 @@ and open the template in the editor.
             </div>
             
             
-            
+             <!--End of collapse-->    
             
             
             
@@ -275,7 +264,7 @@ and open the template in the editor.
         <!--End of wrapper-->
         </div>
         
-        <!--End of collapse-->
+      
         
         
         <
