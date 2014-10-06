@@ -19,7 +19,7 @@ and open the template in the editor.
         // put your code here
         ?>
         
-        
+         
         
         
             <h1 id="title">INSERT TITLE</h1>
@@ -57,7 +57,7 @@ and open the template in the editor.
           </ul>
         </li>
       </ul>
-      <form class="nav navbar-nav navbar-right" role="search">
+        <form id="searchbar" class="nav navbar-nav navbar-right" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
@@ -198,11 +198,12 @@ and open the template in the editor.
             
              
               
-             <!--End of first collapse-->
+             
 
       </div>
     </div>
   </div>
+                    <!--End of first collapse-->
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
@@ -223,6 +224,7 @@ and open the template in the editor.
       </div>
     </div>
   </div>
+                    <!--End of second collapse-->
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
@@ -244,6 +246,7 @@ and open the template in the editor.
           <!--End of third collapse--> 
       </div>
     </div>
+       <!--End of third collapse--> 
   </div>
 </div>
            
