@@ -86,6 +86,9 @@ and open the template in the editor.
     <div class="item active">
         <img src="Bilder/rsz_exotic1.jpg" alt="bild1">
       <div class="carousel-caption">
+          
+          
+          
           <h2>Assorted Title1</h2>
       </div>
     </div>
